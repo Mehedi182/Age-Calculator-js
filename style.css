@@ -1,0 +1,161 @@
+body{
+	/*background-color: #B8E629;*/
+	min-width: 1000px;
+min-height: 1000px;
+
+}
+/*h1{
+	margin-top:-10px;
+	margin-top:-10px;
+}*/
+.tab{
+	tab-size: 8;
+}
+input[type=date]{
+	font-size: 25px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+button:focus {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+.container{
+	font-size: 20px;
+	/*margin-left: 300px;
+	margin-right: 300px;*/
+
+}
+.input-container{
+		border: 1px solid black;
+padding: 20px;
+width: 600px;
+	font-weight: bold;
+	display: block;
+
+}
+.title{
+	/*margin-left: 550px;
+	margin-right: 550px;*/
+	background-color: green;
+	color: white;
+	box-shadow: 0 0  10px green;
+	text-align: center;
+	padding: 5px;
+}
+.btn{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: green;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 200px;
+	font-size:20px;
+	color: white;
+
+}
+.btn:hover{
+	background-color: darkgreen;
+}
+.message{
+	width: 200px;
+	font-size: 25px;
+
+}
+.message-container{
+	margin-left: 100px;
+	width: 350px;
+	height:350px;
+	margin-top: 20px;
+	/*margin-left: 300px;*/
+	background-color: #2BCCE5;
+	border-radius: 10px;
+
+}
+.message-container:hover{
+	width: 400px;
+	height: 400px;
+	box-shadow: 0 0 30px black;
+}
+.fbshare{
+
+	margin-top: 10px;
+	height: 60px;
+	font-size: 25px;
+	font-weight: bold;
+
+
+}
+table{
+
+	border-collapse:collapse;
+	text-align: center;
+
+}
+td,th{
+	padding: 10px;
+}
+.result{
+	height: 60px;
+	width: 600px;
+	border: 1px solid #E62929;
+	background-color: #E62929;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;
+	display: none;
+}
+#result{
+	margin-top: 10px;
+}
+.info{
+	display: none;
+	height: 390px;
+	border-radius: 10px;
+}
+.summary{
+	
+		margin-top: 20px;
+		margin-left: 40px;
+		margin-right: 50px;
+		background-color: #B8E629;
+		width: 370px;
+		height:350px;
+		font-size: 20px;
+		border-radius: 10px;
+
+
+}
+.summary:hover{
+	width: 400px;
+	box-shadow: 0 0 30px black;
+	height: 400px;
+s}
+.birthdays{
+		margin-top: 20px;
+		background-color: #DC5E3F;
+		width: 350px;
+		height:350px;
+		border-radius: 10px;
+		font-size: 20px;
+
+
+}
+.birthdays th{
+	background-color: #0566B6;
+	color: white;
+}
+.birthdays:hover{
+	width: 400px;
+	box-shadow: 0 0 30px black;
+	height: 400px;
+	font-size: 25px;
+}

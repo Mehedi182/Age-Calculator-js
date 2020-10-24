@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Age calcultor</title>
+   <link rel = "icon" href ="icon.png"> 
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="script.js"></script>
+   </head>
+   <body>
+      <h1 class="title">Age Calculator</h1>
+      <div class="container" align="center">
+      	<div class="input">
+         <div class="input-container">
+            Date of Birth <i style="margin-left: 70px; margin-top: 40px;font-size:25px;color:red" class="fa fa-calendar"></i>
+            <input id="bdate" type="date" value="1997-01-31" name="bdate"><br><br>
+            Age at the Date of <i style="margin-left: 30px;font-size:25px;color:red" class="fa fa-calendar"></i> 
+            <input type="date" id="cdate" name="bdate"><br><br>
+            <button class="btn" onclick="result()">Calculate</button>
+         </div>
+         </div>
+
+         <br>
+         
+      </div><br>
+     <center> <div class="result"> <p id="result"></p>
+</div></center><br><br>
+      <div class="info" align="center">
+      	<div class="message-container">
+         	<div class="fbshare">
+           <a href="https://www.facebook.com/plugins/share_button.php?href=https://agecalulator.com/create-facebook-share-button-for-website-webpages/&layout=button_count&size=large&mobile_iframe=true&width=83&height=28&appId" width="83" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">Share on  Facebook</a>
+       </div>
+            <div class="message">
+            </div>
+         </div>
+      <div class="summary">
+        <b style="font-size: 25px; color: red;"> Summary of your life</b>
+         <table border="1">
+            <tr>
+               <th> Total Years</th>
+               <td id="year"></td>
+            </tr>
+            <tr>
+               <th>Total Months</th>
+               <td id="month"></td>
+            </tr>
+            <tr>
+               <th>Total Weeks</th>
+               <td id="week"></td>
+            </tr>
+            <tr>
+               <th>Total Days</th>
+               <td id="days"></td>
+            </tr>
+            <tr>
+               <th>Total Hours</th>
+               <td id="hrs"></td>
+            </tr>
+            <tr>
+               <th>Total Minutes</th>
+               <td id="mins"></td>
+            </tr>
+            <tr>
+               <th>Total Seconds</th>
+               <td id="secs"></td>
+            </tr>
+         </table>
+      </div>
+      <div class="birthdays" align="center">
+      	<b style="font-size: 25px;"> Upcoming Birthdays</b>
+      	<table border="1">
+          <tr>
+          	<th>Date</th>
+          	<th>Day</th>
+          </tr>
+          <tr>
+          <td id="date1"></td>
+          <td id="day1"></td>
+          </tr>
+             <tr>
+          <td id="date2"></td>
+          <td id="day2"></td>
+          </tr>
+             <tr>
+          <td id="date3"></td>
+          <td id="day3"></td>
+          </tr>
+             <tr>
+          <td id="date4"></td>
+          <td id="day4"></td>
+          </tr>
+             <tr>
+          <td id="date5"></td>
+          <td id="day5"></td>
+          </tr>
+             <tr>
+          <td id="date6"></td>
+          <td id="day6"></td>
+          </tr>
+          
+         </table>
+      </div>
+  </div>
+      <br>
+   </body>
